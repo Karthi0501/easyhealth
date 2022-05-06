@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+
+/* Navbar starts */
+nav
+{
+    background-color: white;
+    padding: 12px 20px 20px 40px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 68px;
+    z-index: 100;
+
+}
+
+
+
+
+
+.brand-logo
+{
+    text-decoration: none;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: inherit;
+    letter-spacing: 2px;
+    color: #7a6960;
+    margin-top: 5px;
+    margin-left: 62px;
+    margin-right: 60px;
+}
+
+.account
+{
+    text-decoration: none;
+    font-size: 35px;
+    line-height: 2;
+    font-weight: inherit;
+    letter-spacing: 2px;
+    color: #7a6960;
+    margin-top: 5px;
+    margin-left: 70rem;
+    margin-right: 70px;
+}
+
+
+
+
+
+/* Navbar ends */
+
+
+.banner h1
+{
+border-top-width: 70px;
+margin-top: 80px;
+margin-left: 135px;
+}
+
+
+/* services starts */
+.service .icon-box{
+    padding: 30px;
+    /* position: relative; */
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    margin: 20px;
+}
+.service .icon-box:hover {
+    transform: translateY(-5px);
+    /* border-color: #ef7f4d; */
+    background-color: rgb(148, 143, 143);
+  }
+.service-sec{
+    background: #d1d1d1;
+}
+.ser-h2{
+    font-family: "Raleway", sans-serif;
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 0;
+    line-height: 1px;
+    margin-bottom: 15px;
+    color: #c2b7b1;
+}
+.ser-h3{
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #4e4039;
+}
+.service-hr{
+    width: 60px;
+    height: 2px;
+    margin-top: -12px;
+    margin-left: 650px;
+    overflow: hidden;
+    display: block;
+    left: calc(50% - 30px);
+    background: #eb5d1e;
+}
+.service{
+    text-align: left;
+
+}
+.sub-service{
+    display: flex;
+    margin: 30px 100px;
+    padding-bottom: 80px;
+    
+}
+.icon-box a{
+text-decoration: none;
+color: #111;
+
+}
+
+.icon-box img
+{
+    margin-top: -30px;
+    margin-left: -31px;
+    height: 300px;
+}
+.icon-box h2{
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.icon-box i{
+    text-align: left;
+    margin-right: 0px;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    color: #2e2d2c6c;
+}
+.icon-box p{
+    text-align: left;
+    font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+    color: #212529;
+}
+/* services ends */
